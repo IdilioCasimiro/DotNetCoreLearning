@@ -11,9 +11,9 @@ namespace DotNetCoreLearning.Pages.Filmes
 {
     public class IndexModel : PageModel
     {
-        private readonly DotNetCoreLearning.Models.DotNetCoreLearningContext _context;
+        private readonly DotNetCoreLearningContext _context;
 
-        public IndexModel(DotNetCoreLearning.Models.DotNetCoreLearningContext context)
+        public IndexModel(DotNetCoreLearningContext context)
         {
             _context = context;
         }
