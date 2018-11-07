@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using DotNetCoreLearning.Models;
+using RazorPagesFilme.Models;
 
 namespace DotNetCoreLearning
 {
